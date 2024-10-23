@@ -1,0 +1,61 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/public/bgg.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.app {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background for app container */
+  padding: 20px;
+  border-radius: 20px;
+  width: 350px; /* Small box for weather app */
+  border: 2px solid rgba(0, 0, 0, 0.3); /* Slight black border */
+}
+
+h1 {
+  color: #333;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 1.1em;
+}
+
+.search-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+}
