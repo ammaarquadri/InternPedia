@@ -1,0 +1,51 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent white for tasks */
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.task.completed {
+  background-color: rgba(255, 255, 255, 0.7); /* Purple-black color for completed tasks */
+  color: white; /* White text for better contrast */
+}
+
+.task-text {
+  font-size: 1.2em;
+  color: #333;
+  font-weight: bold; /* Bold text */
+}
+
+.task-actions button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.complete-btn {
+  background-color: #00e400;
+  color: white;
+  font-weight: bold; /* Bold text */
+}
+
+.complete-btn:hover {
+  background-color: #00ff55;
+}
+
+.delete-btn {
+  background-color: #f87171;
+  color: white;
+  font-weight: bold; /* Bold text */
+}
+
+.delete-btn:hover {
+  background-color: #ef4444;
+}

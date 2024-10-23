@@ -1,0 +1,65 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('/public/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.task-input-container {
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent white for the input box */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 400px; /* Set width for the input container */
+}
+
+.title {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #d365ff;
+  border: none;
+  color: white;
+  font-size: 1em;
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #ff3370;
+}
+
+.task-list {
+  max-width: 600px;
+  margin: 20px auto;
+}
